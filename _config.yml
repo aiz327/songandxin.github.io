@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Hydejack
+title:               SongandXin
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -18,8 +18,8 @@ tagline:             A pretentious two-column Jekyll theme.
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Open `_config.yml` to edit this text.
+  好好学习!
+  天天向上.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
@@ -27,7 +27,7 @@ author:
   email:             <mail@domain.tld>
 
 # Fallback image and color
-image:               /hydejack/assets/img/nap.jpg
+image:               /songandxin.github.io/assets/img/nap.jpg
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
