@@ -1,26 +1,20 @@
-### 英语从句
+## Javascript执行机制
 
-英语中，从句主要有三大类型：名词性从句、定语从句（形容词性从句）、状语从句（副词性从句）。从句由引导词连接，引导词主要为代词、副词、连词。
+### 浏览器架构探究
 
-#### 名词性从句
+为了探究JS的执行原理，有必要梳理一下浏览器的架构，以便更深刻的理解。
+现下主流的浏览器主要有Chrome、FireFox、Edge等
 
-名词性从句，顾名思义，可做主语、宾语等成分。主要有三种类型：
+浏览器执行JS是单线程的
 
-- whether + 完整句子
-- that + 完整句子
-- 特殊疑问句的陈述变化
+#### Event Loop的由来
 
-#### 定语从句
+#### Event Loop的运行机制
 
-定语从句由代词、副词引导。
-代词引导的从句，不是完整的句子，在从句中作主语、宾语成分。
-副词引导的是完整的句子。
+#### Node的Event Loop有什么不同?
 
-- 关系代词that/ which/ who/ whom/ whose + 不完整句子
-- 关系副词when/ where/ why + 完整句子
 
-#### 状语从句
-
-状语从句由连词、副词引导。
-
-- 副词/连词 + 完整句子
+#### 参考文章
+- [How browsers work](http://taligarsiel.com/Projects/howbrowserswork1.htm#Introduction)
+- [Chromium Document](https://www.chromium.org/developers/design-documents)
+- 
